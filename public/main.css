@@ -1,0 +1,52 @@
+body {
+  background-color: #FFCCCC;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.house-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.title {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}

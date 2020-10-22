@@ -1,0 +1,16 @@
+<form class="form" action="/edit/{{id}}" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+  
+  <label for="values" class="form-item">
+    Values:
+    <input type="text" name="values" value="{{values}}">
+  </label>
+  
+  <input type="hidden" name="image" value="{{image}}">
+  
+  <input type="submit" name="" value="Submit">
+</form>

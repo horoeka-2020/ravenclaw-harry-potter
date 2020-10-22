@@ -1,0 +1,28 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "name": "Gryffindor",
+      "values": "courage, bravery, nerve, and chivalry",
+      "image": "/images/Gryffindor.png"
+    },
+    {
+      "id": 2,
+      "name": "Hufflepuff",
+      "values": "hard work, patience, justice, and loyalty",
+      "image": "/images/Hufflepuff.png"
+    },
+    {
+      "id": 3,
+      "name": "Ravenclaw",
+      "values": "intelligence, learning, wisdom and wit",
+      "image": "/images/Ravenclaw.png"
+    },
+    {
+      "id": 4,
+      "name": "Slytherin",
+      "values": "ambition, cunning, leadership, and resourcefulness",
+      "image": "/images/Slytherin.png"
+    }
+  ]
+}
