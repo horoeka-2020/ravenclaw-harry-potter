@@ -21,6 +21,13 @@ body {
   margin: 50px;
 }
 
+.character-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
 .house {
   display: flex;
   flex-direction: column;
