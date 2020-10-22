@@ -5,21 +5,30 @@
       "name": "Gryffindor",
       "values": "courage, bravery, nerve, and chivalry",
       "image": "/images/Gryffindor.png",
-      "characters" : [
-        {"name": "Harry Potter",
+      "characters": [
+        {
+          "id": 1,
+          "name": "Harry Potter",
           "known-for": "Scar",
           "age": "12",
-          "actor": "Daniel Radcliffe"
+          "actor": "Daniel Radcliffe",
+          "image": "/images/harry.jpg"
         },
-        {"name": "Hermione Granger",
+        {
+          "id": 2,
+          "name": "Hermione Granger",
           "known-for": "Intelligence",
           "age": "13",
-          "actor": "Emma Watson"
+          "actor": "Emma Watson",
+          "image": "/images/hermoine.jpg"
         },
-        {"name": "Ronald Weasley",
+        {
+          "id": 3,
+          "name": "Ronald Weasley",
           "known-for": "Intelligence",
           "age": "13",
-          "actor": "Rupert Grint"
+          "actor": "Rupert Grint",
+          "image": "/images/ronald.jpg"
         }
       ]
     },
@@ -28,21 +37,27 @@
       "name": "Hufflepuff",
       "values": "hard work, patience, justice, and loyalty",
       "image": "/images/Hufflepuff.png",
-      "characters" : [
-        {"name": "Cedric Diggory",
+      "characters": [
+        {
+          "name": "Cedric Diggory",
           "known-for": "Not making past the fifth book",
           "age": "17",
-          "actor": "Robert Pattinson"
+          "actor": "Robert Pattinson",
+          "image": "/images/cedric.jpg"
         },
-        {"name": "Susan Bones",
+        {
+          "name": "Susan Bones",
           "known-for": "Whole family being killed by Lord Voldemort",
           "age": "13",
-          "actor": "Eleanor Columbus"
+          "actor": "Eleanor Columbus",
+          "image": "/images/susan.jpg"
         },
-        {"name": "Zacharias Smith",
+        {
+          "name": "Zacharias Smith",
           "known-for": "Being selfish, disloyal, and a coward",
           "age": "13",
-          "actor": "Nick Shirm"
+          "actor": "Nick Shirm",
+          "image": "/images/zacharias.jpg"
         }
       ]
     },
@@ -51,21 +66,27 @@
       "name": "Ravenclaw",
       "values": "intelligence, learning, wisdom and wit",
       "image": "/images/Ravenclaw.png",
-      "characters" : [
-        {"name": "Cho Chang",
+      "characters": [
+        {
+          "name": "Cho Chang",
           "known-for": "Being Harry Potters love interest",
           "age": "13",
-          "actor": "Katie Leung"
+          "actor": "Katie Leung",
+          "image": "/images/cho.jpg"
         },
-        {"name": "Luna Lovegood",
+        {
+          "name": "Luna Lovegood",
           "known-for": "Being a bit spacy",
           "age": "13",
-          "actor": "Evanna Lynch"
+          "actor": "Evanna Lynch",
+          "image": "/images/luna.jpg"
         },
-        {"name": "Marcus Belby",
+        {
+          "name": "Marcus Belby",
           "known-for": "Being nephew of Damocles Belby, the noted potioneer who developed the Wolfsbane Potion",
           "age": "12",
-          "actor": "Rob Knox"
+          "actor": "Rob Knox",
+          "image": "/images/marcus.jpg"
         }
       ]
     },
@@ -74,21 +95,27 @@
       "name": "Slytherin",
       "values": "ambition, cunning, leadership, and resourcefulness",
       "image": "/images/Slytherin.png",
-      "characters" : [
-        {"name": "Draco Malfoy",
+      "characters": [
+        {
+          "name": "Draco Malfoy",
           "known-for": "Being pretty nasty",
           "age": "13",
-          "actor": "Tom Felton"
+          "actor": "Tom Felton",
+          "image": "/images/draco.png"
         },
-        {"name": "Gregory Goyle",
+        {
+          "name": "Gregory Goyle",
           "known-for": "Being a henchman",
           "age": "13",
-          "actor": "Josh Herdman"
+          "actor": "Josh Herdman",
+          "image": "/images/gregory.jpg"
         },
-        {"name": "Vincent Crabbe",
+        {
+          "name": "Vincent Crabbe",
           "known-for": "Being a henchman",
           "age": "12",
-          "actor": "Jamie Waylett"
+          "actor": "Jamie Waylett",
+          "image": "/images/vincent.jpg"
         }
       ]
     }
