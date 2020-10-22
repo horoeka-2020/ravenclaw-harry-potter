@@ -4,25 +4,93 @@
       "id": 1,
       "name": "Gryffindor",
       "values": "courage, bravery, nerve, and chivalry",
-      "image": "/images/Gryffindor.png"
+      "image": "/images/Gryffindor.png",
+      "characters" : [
+        {"name": "Harry Potter",
+          "known-for": "Scar",
+          "age": "12",
+          "actor": "Daniel Radcliffe"
+        },
+        {"name": "Hermione Granger",
+          "known-for": "Intelligence",
+          "age": "13",
+          "actor": "Emma Watson"
+        },
+        {"name": "Ronald Weasley",
+          "known-for": "Intelligence",
+          "age": "13",
+          "actor": "Rupert Grint"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Hufflepuff",
       "values": "hard work, patience, justice, and loyalty",
-      "image": "/images/Hufflepuff.png"
+      "image": "/images/Hufflepuff.png",
+      "characters" : [
+        {"name": "Cedric Diggory",
+          "known-for": "Not making past the fifth book",
+          "age": "17",
+          "actor": "Robert Pattinson"
+        },
+        {"name": "Susan Bones",
+          "known-for": "Whole family being killed by Lord Voldemort",
+          "age": "13",
+          "actor": "Eleanor Columbus"
+        },
+        {"name": "Zacharias Smith",
+          "known-for": "Being selfish, disloyal, and a coward",
+          "age": "13",
+          "actor": "Nick Shirm"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Ravenclaw",
       "values": "intelligence, learning, wisdom and wit",
-      "image": "/images/Ravenclaw.png"
+      "image": "/images/Ravenclaw.png",
+      "characters" : [
+        {"name": "Cho Chang",
+          "known-for": "Being Harry Potters love interest",
+          "age": "13",
+          "actor": "Katie Leung"
+        },
+        {"name": "Luna Lovegood",
+          "known-for": "Being a bit spacy",
+          "age": "13",
+          "actor": "Evanna Lynch"
+        },
+        {"name": "Marcus Belby",
+          "known-for": "Being nephew of Damocles Belby, the noted potioneer who developed the Wolfsbane Potion",
+          "age": "12",
+          "actor": "Rob Knox"
+        }
+      ]
     },
     {
       "id": 4,
       "name": "Slytherin",
       "values": "ambition, cunning, leadership, and resourcefulness",
-      "image": "/images/Slytherin.png"
+      "image": "/images/Slytherin.png",
+      "characters" : [
+        {"name": "Draco Malfoy",
+          "known-for": "Being pretty nasty",
+          "age": "13",
+          "actor": "Tom Felton"
+        },
+        {"name": "Gregory Goyle",
+          "known-for": "Being a henchman",
+          "age": "13",
+          "actor": "Josh Herdman"
+        },
+        {"name": "Vincent Crabbe",
+          "known-for": "Being a henchman",
+          "age": "12",
+          "actor": "Jamie Waylett"
+        }
+      ]
     }
   ]
 }
