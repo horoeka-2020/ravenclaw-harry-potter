@@ -6,7 +6,7 @@ const newRouter = require('./routes/newRoute')
 const displayHouseRouter = require('./routes/displayHouseRoute')
 // const router = express.Router()
 // router.use(express.urlencoded({extended: false}))
-
+//
 const server = express()
 
 module.exports = server
@@ -14,7 +14,6 @@ module.exports = server
 // Handlebars configuration
 server.engine('hbs', hbs({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
-
 
 // Server configuration
 server.use(express.static('public'))
@@ -28,4 +27,4 @@ server.use('/', router)
 
 // server.get('/', (req,res) => {
 //   res.render('home')
-// }) 
+// })
