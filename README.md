@@ -1,2 +1,3 @@
-# ravenclaw-harry-potter
-W2 Ravenclaw group repo for group project
+# Ravenclaw Harry Potter Project
+
+Week 02 Ravenclaw repo for group project
