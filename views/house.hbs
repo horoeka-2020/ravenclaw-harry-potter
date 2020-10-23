@@ -1,16 +1,17 @@
 <div class="container">
   {{#each characters}}
-  <div class="character-list">
-    
-  <a href="/{{id}}"><img class="img-circle-character" src="{{image}}" alt="{{name}}"></a>
-  <h2>{{name}}</h2>
-  <div class="details">
-  <strong>Age:</strong> {{age}}<br>
-  <strong>Known for:</strong> {{known-for}}<br>
-  <strong>Actor:</strong> {{actor}}
-  </div>
-  </div>
-  
+    <div class="character-list">
+      <a href="/{{id}}"><img class="img-circle-character" src="{{image}}" alt="{{name}}"></a>
+      <h2>{{name}}</h2>
+      <div class="details">
+        <strong>Age:</strong> {{age}}<br>
+        <strong>Known for:</strong> {{known-for}}<br>
+        <strong>Actor:</strong> {{actor}}
+      </div>
+    </div>
   <br>
   {{/each}}
+</div>
+<div>
+   <a class="nav" href="/new/{{id}}">Add yourself to this house!</a>
 </div>

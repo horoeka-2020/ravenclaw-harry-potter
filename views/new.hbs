@@ -1,4 +1,4 @@
-<form class="form" action="/new/" method="post">
+<form class="form" action="/new/{{id}}" method="post">
   {{!-- <img class="img-circle" src="{{image}}" alt="{{name}}"> --}}
   <h2>Please enter your new house member details</h2>
   
@@ -11,10 +11,20 @@
     Name:
     <input type="text" name="name" value="">
   </label>
+
+  <label for="known-for" class="form-item">
+      Known for:
+    <input type="txt" name="known-for" value="">
+  </label>
   
-  <label for="values" class="form-item">
-    Values:
-    <input type="text" name="values" value="">
+  <label for="age" class="form-item">
+    Age:
+    <input type="txt" name="age" value="">
+  </label>
+
+  <label for="actor" class="form-item">
+    Actor:
+    <input type="text" name="actor" value="">
   </label>
   
   {{!-- <input type="hidden" name="image" value="{{image}}"> --}}
