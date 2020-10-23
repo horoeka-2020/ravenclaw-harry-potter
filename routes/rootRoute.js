@@ -38,7 +38,8 @@ router.get('/:id', (req, res) => {
     const data = JSON.parse(contents)
     // Accessing individual house object from data.json
     const viewData = {
-      characters: data.houses[id - 1].characters
+      characters: data.houses[id - 1].characters,
+      id: id
     }
     // render the template with our view data
     res.render('house', viewData)
